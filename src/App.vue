@@ -1,8 +1,14 @@
+<script setup>
+import '../node_modules/vue-plyr/dist/vue-plyr.css';
+import '../node_modules/plyr/dist/plyr.css';
+</script>
+
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/video">Video</router-link>
   </nav>
+  <p>I am Batman</p>
   <router-view></router-view>
 </template>
 

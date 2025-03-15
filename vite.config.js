@@ -15,4 +15,13 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  server: {
+    proxy: {
+      '/file': {
+        target: 'http://shenben.club:9000',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/file/, '')
+      }
+    }
+  }
 })
