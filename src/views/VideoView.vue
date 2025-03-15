@@ -12,7 +12,7 @@
 <script setup lang="ts">
 import VideoPlayer from '@/components/video/VideoPlayer.vue'
 
-const videoUrl = 'http://shenben.club:9000/test227/2025-01-28%2021_28_25.mp4'
+const videoUrl = 'https://weiwoyonzhe.oss-cn-hangzhou.aliyuncs.com/test.mp4'
 const characters = ['Character A', 'Character B', 'Character C']
 </script>
 
